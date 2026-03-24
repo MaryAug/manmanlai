@@ -753,7 +753,7 @@
   <picture>https://thb.tildacdn.com/tild6264-6531-4835-b838-663431386165/-/resize/20x/IMG_8975_1.jpg</picture>
   
   <param name="Оплата в рассрочку" unit="месяц">3</param>
-  <param name="Продолжительность" unit="час">1.5</param>
+  <param name="Продолжительность" unit="час">2</param>
   
   <param name="План" order="1">
     Выбор блока тем, знакомство с материалами (PDF с лексикой, вопросами, подсказками).
@@ -833,7 +833,7 @@
   <picture>https://thb.tildacdn.com/tild6264-6531-4835-b838-663431386165/-/resize/20x/IMG_8975_1.jpg</picture>
   
   <param name="Оплата в рассрочку" unit="месяц">3</param>
-  <param name="Продолжительность" unit="час">4.5</param>
+  <param name="Продолжительность" unit="час">5</param>
   
   <param name="План" order="1">
     Выбор блока тем, знакомство с материалами (PDF с лексикой, вопросами, подсказками).
@@ -1194,7 +1194,7 @@
   <price>1800</price>
   <currencyId>RUR</currencyId>
   <categoryId>20006</categoryId>
-  <param name="Продолжительность" unit="час">0.75</param>
+  <param name="Продолжительность" unit="час">1</param>
   
   <param name="План" order="1">
     Вводное занятие: знакомство с ребенком, определение уровня, 
@@ -1268,8 +1268,7 @@
   <price>2700</price>
   <currencyId>RUR</currencyId>
   <categoryId>20006</categoryId>
-  <!-- Продолжительность (1 урок) -->
-  <param name="Продолжительность" unit="час">1.5</param>
+  <param name="Продолжительность" unit="час">2</param>
   
   <param name="План" order="1">
     Вводное занятие: определение текущего уровня, постановка целей, 
@@ -1307,8 +1306,7 @@
   <price>3300</price>
   <currencyId>RUR</currencyId>
   <categoryId>20006</categoryId>
-  <!-- Продолжительность (1 урок) -->
-  <param name="Продолжительность" unit="час">1.5</param>
+  <param name="Продолжительность" unit="час">2</param>
   
   <param name="План" order="1">
     Вводное занятие: определение текущего уровня, постановка целей, 
@@ -1346,8 +1344,7 @@
   <price>4050</price>
   <currencyId>RUR</currencyId>
   <categoryId>20006</categoryId>
-  <!-- Продолжительность (1 урок) -->
-  <param name="Продолжительность" unit="час">1.5</param>
+  <param name="Продолжительность" unit="час">2</param>
   
   <param name="План" order="1">
     Вводное занятие: определение текущего уровня, постановка целей, 
@@ -1385,8 +1382,7 @@
   <price>4800</price>
   <currencyId>RUR</currencyId>
   <categoryId>20006</categoryId>
-  <!-- Продолжительность (1 урок) -->
-  <param name="Продолжительность" unit="час">1.5</param>
+  <param name="Продолжительность" unit="час">2</param>
   
   <param name="План" order="1">
     Вводное занятие: определение текущего уровня, постановка целей, 
@@ -1425,7 +1421,6 @@
   <currencyId>RUR</currencyId>
   <categoryId>20006</categoryId>
   
-  <!-- Продолжительность (4 недели) -->
   <param name="Продолжительность" unit="месяц">1</param>
   
   <param name="План" order="1">
@@ -1470,7 +1465,6 @@
     
   
   <param name="Оплата в рассрочку" unit="месяц">3</param>
-  <!-- Продолжительность (4 недели) -->
   <param name="Продолжительность" unit="месяц">1</param>
   
   <param name="План" order="1">
@@ -1511,7 +1505,6 @@
   <price>990</price>
   <currencyId>RUR</currencyId>
   <categoryId>20006</categoryId>
-  <!-- Картинки нет -->
   
   <param name="Продолжительность" unit="день">10</param>
   
@@ -1548,9 +1541,7 @@
   <currencyId>RUR</currencyId>
   <categoryId>20006</categoryId>
   <picture>https://thb.tildacdn.com/tild3834-3333-4665-b834-363630306230/-/resize/20x/rinochka88_beautiful.png</picture>
-  <!-- Рассрочка (доступна на странице) -->
   <param name="Оплата в рассрочку" unit="месяц">3</param>
-  <!-- Продолжительность (академическая нагрузка) -->
   <param name="Продолжительность" unit="час">7</param>
   
   <param name="План" order="1">
@@ -1597,7 +1588,6 @@
   <param name="Цена по скидке">8800</param>
   
   <param name="Продолжительность" unit="месяц">1</param>
-  <!-- План обучения (3 этапа) — обобщенно для всех смен -->
   <param name="План" order="1">
     Вводная часть: знакомство с группой, преподавателем, форматом лагеря. 
     Изучение базовых тем (числа, даты, семья) через игры и интерактивные задания.
