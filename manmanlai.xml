@@ -10,10 +10,6 @@
     <currencies>
       <currency id="RUR" rate="1"/>
     </currencies>
-    <categories>
-      <category id="20000">Языки</category>
-      <category id="20006" parentId="20000">Китайский язык</category>
-    </categories>
     <offers>
 <offer id="fonetika_prodolzhayushhie">
   <name>Фонетический курс китайского языка для продолжающих «Свободолюбивый карп»</name>
@@ -22,8 +18,7 @@
   <currencyId>RUR</currencyId>
   <categoryId>20006</categoryId>
   <picture>https://static.tildacdn.com/tild3562-6664-4564-b166-353833313861/___5_1.jpg</picture>
-  <param name="Цена по скидке">10400</param>
-  <param name="Продолжительность" unit="часы">54</param>
+  <param name="Продолжительность" unit="час">54</param>
   <param name="План" order="1">Все звуки и тоны китайского языка. Правильная артикуляция.</param>
   <param name="План" order="2">Сложные сочетания звуков, изменения тонов. Практика аудирования.</param>
   <param name="План" order="3">Ритмика, интонация и постановка беглой речи.</param>
@@ -49,7 +44,7 @@
   <categoryId>20006</categoryId>
   <picture>https://optim.tildacdn.com/tild3838-3534-4734-a237-636664643063/-/cover/720x460/center/center/-/format/webp/___3_1.jpg.webp</picture>
   <param name="Оплата в рассрочку" unit="месяц">3</param>
-  <param name="Продолжительность" unit="часы">54</param>
+  <param name="Продолжительность" unit="час">54</param>
   <param name="План" order="1">Все звуки и тоны китайского языка. Правильная артикуляция.</param>
   <param name="План" order="2">Сложные сочетания звуков, изменения тонов. Практика аудирования.</param>
   <param name="План" order="3">Ритмика, интонация и постановка беглой речи.</param>
@@ -77,7 +72,7 @@
   <categoryId>20006</categoryId>
   <picture>https://optim.tildacdn.com/tild6562-6133-4636-b064-343965303565/-/cover/720x460/center/center/-/format/webp/___2_2.jpg.webp</picture>
   <param name="Оплата в рассрочку" unit="месяц">3</param>
-  <param name="Продолжительность" unit="часы">54</param>
+  <param name="Продолжительность" unit="час">54</param>
   <param name="План" order="1">Все звуки и тоны китайского языка. Правильная артикуляция.</param>
   <param name="План" order="2">Сложные сочетания звуков, изменения тонов. Практика аудирования.</param>
   <param name="План" order="3">Ритмика, интонация и постановка беглой речи.</param>
@@ -209,7 +204,6 @@
   <price>42500</price>
   <currencyId>RUR</currencyId>
   <categoryId>20006</categoryId>
-  <picture>https://optim.tildacdn.com/tild6439-3938-4463-a633-613264323034/-/cover/720x700/center/center/-/format/webp/___2_1.jpg.webp</picture>
   <param name="Оплата в рассрочку" unit="месяц">3</param>
   <param name="Продолжительность" unit="месяц">3</param>
   <param name="План" order="1">
@@ -276,9 +270,7 @@
   <price>10200</price>
   <currencyId>RUR</currencyId>
   <categoryId>20006</categoryId>
-  <picture>https://thb.tildacdn.com/tild3233-3034-4434-a335-393363643662/-/resize/20x/___2_3_1.jpg</picture>
   <param name="Оплата в рассрочку" unit="месяц">3</param>
-  <param name="Цена по скидке" unit="месяц">7% при оплате 3 месяцев</param>
   <param name="Продолжительность" unit="месяц">1</param>
   <param name="План" order="1">
     Интенсивная разговорная практика: диалоги, обсуждения, ролевые игры. 
@@ -317,7 +309,6 @@
   <categoryId>20006</categoryId>
   <picture>https://thb.tildacdn.com/tild3233-3034-4434-a335-393363643662/-/resize/20x/___2_3_1.jpg</picture>
   <param name="Оплата в рассрочку" unit="месяц">3</param>
-  <param name="Цена по скидке" unit="месяц">7% при оплате 3 месяцев</param>
   <param name="Продолжительность" unit="месяц">1</param>
   <param name="План" order="1">
     Интенсивная разговорная практика: диалоги, обсуждения, ролевые игры. 
@@ -356,7 +347,6 @@
   <categoryId>20006</categoryId>
   <picture>https://thb.tildacdn.com/tild3233-3034-4434-a335-393363643662/-/resize/20x/___2_3_1.jpg</picture>
   <param name="Оплата в рассрочку" unit="месяц">3</param>
-  <param name="Цена по скидке" unit="месяц">7% при оплате 3 месяцев</param>
   <param name="Продолжительность" unit="месяц">1</param>
   <param name="План" order="1">
     Интенсивная разговорная практика: диалоги, обсуждения, ролевые игры. 
@@ -395,7 +385,6 @@
   <categoryId>20006</categoryId>
   <picture>https://thb.tildacdn.com/tild3233-3034-4434-a335-393363643662/-/resize/20x/___2_3_1.jpg</picture>
   <param name="Оплата в рассрочку" unit="месяц">3</param>
-  <param name="Цена по скидке" unit="месяц">7% при оплате 3 месяцев</param>
   <param name="Продолжительность" unit="месяц">1</param>
   <param name="План" order="1">
   Интенсивная разговорная практика: диалоги, обсуждения, ролевые игры. 
@@ -436,8 +425,6 @@
     
   
   <param name="Оплата в рассрочку" unit="месяц">3</param>
-  <!-- Скидка при оплате 3 месяцев -->
-  <param name="Цена по скидке" unit="месяц">7% при оплате 3 месяцев</param>
   
   <param name="Продолжительность" unit="месяц">1</param>
   
@@ -483,8 +470,6 @@
     
   
   <param name="Оплата в рассрочку" unit="месяц">3</param>
-  <!-- Скидка при оплате 3 месяцев -->
-  <param name="Цена по скидке" unit="месяц">7% при оплате 3 месяцев</param>
   
   <param name="Продолжительность" unit="месяц">1</param>
   
@@ -530,8 +515,6 @@
     
   
   <param name="Оплата в рассрочку" unit="месяц">3</param>
-  <!-- Скидка при оплате 3 месяцев -->
-  <param name="Цена по скидке" unit="месяц">7% при оплате 3 месяцев</param>
   
   <param name="Продолжительность" unit="месяц">1</param>
   
@@ -577,8 +560,6 @@
     
   
   <param name="Оплата в рассрочку" unit="месяц">3</param>
-  <!-- Скидка при оплате 3 месяцев -->
-  <param name="Цена по скидке" unit="месяц">7% при оплате 3 месяцев</param>
   
   <param name="Продолжительность" unit="месяц">1</param>
   
@@ -622,7 +603,7 @@
   <categoryId>20006</categoryId>
   <picture>https://thb.tildacdn.com/tild3233-3034-4434-a335-393363643662/-/resize/20x/___2_3_1.jpg</picture>
   
-  <param name="Продолжительность" unit="неделя">1</param>
+  <param name="Продолжительность" unit="день">10</param>
   
   <param name="План" order="1">2 урока с преподавателем в мини-группе (60 мин)</param>
   <param name="План" order="2">1 мини-урок с носителем языка (15 мин)</param>
@@ -647,11 +628,9 @@
   <price>17300</price>
   <currencyId>RUR</currencyId>
   <categoryId>20006</categoryId>
-  <picture>https://manmanlai.ru/images/courses/hsk2.jpg</picture>
   
   <param name="Оплата в рассрочку" unit="месяц">3</param>
-  <!-- Продолжительность (академическая нагрузка) -->
-  <param name="Продолжительность" unit="часы">20</param>
+  <param name="Продолжительность" unit="час">20</param>
   
   <param name="План" order="1">
     Видеоуроки 1–5: повторение базы HSK 1, введение в лексику HSK 2. 
@@ -692,8 +671,7 @@
   <picture>https://optim.tildacdn.com/tild3265-3362-4461-a439-643033386536/-/cover/720x500/center/center/-/format/webp/noroot.png.webp</picture>
   
   <param name="Оплата в рассрочку" unit="месяц">3</param>
-  <!-- Продолжительность (академическая нагрузка) -->
-  <param name="Продолжительность" unit="часы">24</param>
+  <param name="Продолжительность" unit="час">24</param>
   
   <param name="План" order="1">
     Видеоуроки 1–5: повторение базы HSK 1, введение в лексику HSK 2. 
@@ -734,8 +712,7 @@
   <picture>https://optim.tildacdn.com/tild3937-3031-4661-a666-306437313639/-/cover/720x500/center/center/-/format/webp/noroot.png.webp</picture>
   
   <param name="Оплата в рассрочку" unit="месяц">3</param>
-  <!-- Продолжительность (академическая нагрузка) -->
-  <param name="Продолжительность" unit="часы">28</param>
+  <param name="Продолжительность" unit="час">28</param>
   
   <param name="План" order="1">
     Видеоуроки 1–5: повторение базы HSK 1, введение в лексику HSK 2. 
@@ -776,8 +753,7 @@
   <picture>https://thb.tildacdn.com/tild6264-6531-4835-b838-663431386165/-/resize/20x/IMG_8975_1.jpg</picture>
   
   <param name="Оплата в рассрочку" unit="месяц">3</param>
-  <!-- Продолжительность (в часах) -->
-  <param name="Продолжительность" unit="часы">1.5</param>
+  <param name="Продолжительность" unit="час">1.5</param>
   
   <param name="План" order="1">
     Выбор блока тем, знакомство с материалами (PDF с лексикой, вопросами, подсказками).
@@ -817,8 +793,7 @@
   <picture>https://thb.tildacdn.com/tild6264-6531-4835-b838-663431386165/-/resize/20x/IMG_8975_1.jpg</picture>
   
   <param name="Оплата в рассрочку" unit="месяц">3</param>
-  <!-- Продолжительность (в часах) -->
-  <param name="Продолжительность" unit="часы">3</param>
+  <param name="Продолжительность" unit="час">3</param>
   
   <param name="План" order="1">
     Выбор блока тем, знакомство с материалами (PDF с лексикой, вопросами, подсказками).
@@ -858,8 +833,7 @@
   <picture>https://thb.tildacdn.com/tild6264-6531-4835-b838-663431386165/-/resize/20x/IMG_8975_1.jpg</picture>
   
   <param name="Оплата в рассрочку" unit="месяц">3</param>
-  <!-- Продолжительность (в часах) -->
-  <param name="Продолжительность" unit="часы">4.5</param>
+  <param name="Продолжительность" unit="час">4.5</param>
   
   <param name="План" order="1">
     Выбор блока тем, знакомство с материалами (PDF с лексикой, вопросами, подсказками).
@@ -899,8 +873,7 @@
   <picture>https://optim.tildacdn.com/tild6438-6232-4265-b562-376565633834/-/format/webp/noroot.png.webp</picture>
   
   <param name="Оплата в рассрочку" unit="месяц">3</param>
-  <!-- Продолжительность (академическая нагрузка) -->
-  <param name="Продолжительность" unit="часы">20</param>
+  <param name="Продолжительность" unit="час">20</param>
   
   <param name="План" order="1">
     Вводный модуль: обзор структуры экзамена HSK 4 и HSKK 中级. 
@@ -942,8 +915,7 @@
   <picture>https://optim.tildacdn.com/tild3365-3034-4634-b661-313436306432/-/format/webp/_.jpg.webp</picture>
   
   <param name="Оплата в рассрочку" unit="месяц">3</param>
-  <!-- Продолжительность (академическая нагрузка) -->
-  <param name="Продолжительность" unit="часы">23</param>
+  <param name="Продолжительность" unit="час">23</param>
   
   <param name="План" order="1">
     Вводный модуль: обзор структуры экзамена HSK 4 и HSKK 中级. 
@@ -986,8 +958,7 @@
   <picture>https://optim.tildacdn.com/tild6438-6232-4265-b562-376565633834/-/format/webp/noroot.png.webp</picture>
   
   <param name="Оплата в рассрочку" unit="месяц">3</param>
-  <!-- Продолжительность (академическая нагрузка) -->
-  <param name="Продолжительность" unit="часы">32</param>
+  <param name="Продолжительность" unit="час">32</param>
   
   <param name="План" order="1">
     Вводный модуль: обзор структуры экзамена HSK 5 и HSKK 高级. 
@@ -1030,8 +1001,7 @@
   <picture>https://optim.tildacdn.com/tild3365-3034-4634-b661-313436306432/-/format/webp/_.jpg.webp</picture>
   
   <param name="Оплата в рассрочку" unit="месяц">3</param>
-  <!-- Продолжительность (академическая нагрузка) -->
-  <param name="Продолжительность" unit="часы">35</param>
+  <param name="Продолжительность" unit="час">35</param>
   
   <param name="План" order="1">
     Вводный модуль: обзор структуры экзамена HSK 5 и HSKK 高级. 
@@ -1072,8 +1042,7 @@
   <price>1800</price>
   <currencyId>RUR</currencyId>
   <categoryId>20006</categoryId>
-  <!-- Продолжительность (1 урок) -->
-  <param name="Продолжительность" unit="часы">1</param>
+  <param name="Продолжительность" unit="час">1</param>
   
   <param name="План" order="1">
     Вводное занятие: определение текущего уровня, постановка целей, 
@@ -1111,8 +1080,7 @@
   <price>2200</price>
   <currencyId>RUR</currencyId>
   <categoryId>20006</categoryId>
-  <!-- Продолжительность (1 урок) -->
-  <param name="Продолжительность" unit="часы">1</param>
+  <param name="Продолжительность" unit="час">1</param>
   
   <param name="План" order="1">
     Вводное занятие: определение текущего уровня, постановка целей, 
@@ -1150,8 +1118,7 @@
   <price>2700</price>
   <currencyId>RUR</currencyId>
   <categoryId>20006</categoryId>
-  <!-- Продолжительность (1 урок) -->
-  <param name="Продолжительность" unit="часы">1</param>
+  <param name="Продолжительность" unit="час">1</param>
   
   <param name="План" order="1">
     Вводное занятие: определение текущего уровня, постановка целей, 
@@ -1189,8 +1156,7 @@
   <price>3200</price>
   <currencyId>RUR</currencyId>
   <categoryId>20006</categoryId>
-  <!-- Продолжительность (1 урок) -->
-  <param name="Продолжительность" unit="часы">1</param>
+  <param name="Продолжительность" unit="час">1</param>
   
   <param name="План" order="1">
     Вводное занятие: определение текущего уровня, постановка целей, 
@@ -1228,8 +1194,7 @@
   <price>1800</price>
   <currencyId>RUR</currencyId>
   <categoryId>20006</categoryId>
-  <!-- Продолжительность (1 урок) -->
-  <param name="Продолжительность" unit="часы">0.75</param>
+  <param name="Продолжительность" unit="час">0.75</param>
   
   <param name="План" order="1">
     Вводное занятие: знакомство с ребенком, определение уровня, 
@@ -1266,8 +1231,7 @@
   <price>2600</price>
   <currencyId>RUR</currencyId>
   <categoryId>20006</categoryId>
-  <!-- Продолжительность (1 урок) -->
-  <param name="Продолжительность" unit="часы">1</param>
+  <param name="Продолжительность" unit="час">1</param>
   
   <param name="План" order="1">
     Вводное занятие: знакомство с ребенком, определение уровня, 
@@ -1305,7 +1269,7 @@
   <currencyId>RUR</currencyId>
   <categoryId>20006</categoryId>
   <!-- Продолжительность (1 урок) -->
-  <param name="Продолжительность" unit="часы">1.5</param>
+  <param name="Продолжительность" unit="час">1.5</param>
   
   <param name="План" order="1">
     Вводное занятие: определение текущего уровня, постановка целей, 
@@ -1344,7 +1308,7 @@
   <currencyId>RUR</currencyId>
   <categoryId>20006</categoryId>
   <!-- Продолжительность (1 урок) -->
-  <param name="Продолжительность" unit="часы">1.5</param>
+  <param name="Продолжительность" unit="час">1.5</param>
   
   <param name="План" order="1">
     Вводное занятие: определение текущего уровня, постановка целей, 
@@ -1383,7 +1347,7 @@
   <currencyId>RUR</currencyId>
   <categoryId>20006</categoryId>
   <!-- Продолжительность (1 урок) -->
-  <param name="Продолжительность" unit="часы">1.5</param>
+  <param name="Продолжительность" unit="час">1.5</param>
   
   <param name="План" order="1">
     Вводное занятие: определение текущего уровня, постановка целей, 
@@ -1422,7 +1386,7 @@
   <currencyId>RUR</currencyId>
   <categoryId>20006</categoryId>
   <!-- Продолжительность (1 урок) -->
-  <param name="Продолжительность" unit="часы">1.5</param>
+  <param name="Продолжительность" unit="час">1.5</param>
   
   <param name="План" order="1">
     Вводное занятие: определение текущего уровня, постановка целей, 
@@ -1549,7 +1513,7 @@
   <categoryId>20006</categoryId>
   <!-- Картинки нет -->
   
-  <param name="Продолжительность" unit="неделя">1</param>
+  <param name="Продолжительность" unit="день">10</param>
   
   <param name="План" order="1">
     Знакомство с форматом обучения, преподавателем и группой.
@@ -1587,7 +1551,7 @@
   <!-- Рассрочка (доступна на странице) -->
   <param name="Оплата в рассрочку" unit="месяц">3</param>
   <!-- Продолжительность (академическая нагрузка) -->
-  <param name="Продолжительность" unit="часы">7</param>
+  <param name="Продолжительность" unit="час">7</param>
   
   <param name="План" order="1">
     Вводный модуль: знакомство с основами китайского языка через числа, даты, праздники. 
@@ -1632,7 +1596,7 @@
   <!-- Скидка при раннем бронировании -->
   <param name="Цена по скидке">8800</param>
   
-  <param name="Продолжительность" unit="неделя">4</param>
+  <param name="Продолжительность" unit="месяц">1</param>
   <!-- План обучения (3 этапа) — обобщенно для всех смен -->
   <param name="План" order="1">
     Вводная часть: знакомство с группой, преподавателем, форматом лагеря. 
