@@ -19,7 +19,7 @@
   <categoryId>20006</categoryId>
   <picture>https://optim.tildacdn.com/tild3838-3534-4734-a237-636664643063/-/cover/720x460/center/center/-/format/webp/___3_1.jpg.webp</picture>
   <param name="Оплата в рассрочку" unit="месяц">3</param>
-  <param name="Ближайшая дата">[NEXT_START_5]</param>
+  <param name="Ближайшая дата">2026-04-05</param>
   <param name="Продолжительность" unit="час">54</param>
   <param name="План" order="1">Все звуки и тоны китайского языка. Правильная артикуляция.</param>
   <param name="План" order="2">Сложные сочетания звуков, изменения тонов. Практика аудирования.</param>
