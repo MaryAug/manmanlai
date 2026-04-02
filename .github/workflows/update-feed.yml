@@ -30,9 +30,15 @@ jobs:
           NEXT_5=$(next_5)
           echo "next_5=$NEXT_5" >> $GITHUB_OUTPUT
 
-      - name: Replace placeholders
+      - name: Replace placeholders in XML
         run: |
-          sed -i "s/\[NEXT_START_5\]/${{ steps.dates.outputs.next_5 }}/g" manmanlai.xml
+          echo "Содержимое файла до замены (строка с Ближайшая дата):"
+          grep -n "Ближайшая дата" manmanlai.xml || echo "Строка не найдена"
+    
+          sed -i "s/\[NEXT_START_5\]/2026-04-05/g" manmanlai.xml
+      
+          echo "Содержимое файла после замены:"
+          grep -n "Ближайшая дата" manmanlai.xml || echo "Строка не найдена"
 
       - name: Commit and push
         run: |
