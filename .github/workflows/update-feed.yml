@@ -45,6 +45,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "actions@github.com"
           git add manmanlai.xml
-          git diff --quiet && exit 0
-          git commit -m "Auto-update start dates"
+          git commit -m "Auto-update start dates" || echo "No changes to commit"
           git push
