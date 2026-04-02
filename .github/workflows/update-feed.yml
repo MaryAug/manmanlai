@@ -15,6 +15,7 @@ jobs:
       - name: Calculate next start dates
         id: dates
         run: |
+          # Функция для 5-го числа
           next_5() {
             today=$(date +%d)
             month=$(date +%m)
@@ -27,23 +28,41 @@ jobs:
               echo "$next_year-$next_month-05"
             fi
           }
-          NEXT_5=$(next_5)
-          echo "next_5=$NEXT_5" >> $GITHUB_OUTPUT
+          # Функция для 10-го числа
+          next_10() {
+            today=$(date +%d)
+            month=$(date +%m)
+            year=$(date +%Y)
+            if [ "$today" -le 10 ]; then
+              echo "$year-$month-10"
+            else
+              next_month=$(date -d "$year-$month-01 +1 month" +%m)
+              next_year=$(date -d "$year-$month-01 +1 month" +%Y)
+              echo "$next_year-$next_month-10"
+            fi
+          }
+          # Функция для следующего дня (завтра)
+          next_tomorrow() {
+            date -d "+1 day" +%Y-%m-%d
+          }
 
-      - name: Replace placeholders in XML
+          echo "next_5=$(next_5)" >> $GITHUB_OUTPUT
+          echo "next_10=$(next_10)" >> $GITHUB_OUTPUT
+          echo "next_tomorrow=$(next_tomorrow)" >> $GITHUB_OUTPUT
+
+      - name: Generate feed from template
         run: |
-          echo "Содержимое файла до замены (строка с Ближайшая дата):"
-          grep -n "Ближайшая дата" manmanlai.xml || echo "Строка не найдена"
-    
-          sed -i "s/\[NEXT_START_5\]/2026-04-05/g" manmanlai.xml
-      
-          echo "Содержимое файла после замены:"
-          grep -n "Ближайшая дата" manmanlai.xml || echo "Строка не найдена"
+          # Копируем шаблон в итоговый файл
+          cp manmanlai_template.xml manmanlai.xml
+          # Заменяем плейсхолдеры на вычисленные даты
+          sed -i "s/\[NEXT_START_5\]/${{ steps.dates.outputs.next_5 }}/g" manmanlai.xml
+          sed -i "s/\[NEXT_START_10\]/${{ steps.dates.outputs.next_10 }}/g" manmanlai.xml
+          sed -i "s/\[NEXT_START_TOMORROW\]/${{ steps.dates.outputs.next_tomorrow }}/g" manmanlai.xml
 
-      - name: Commit and push
+      - name: Commit and push feed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "actions@github.com"
           git add manmanlai.xml
-          git commit -m "Auto-update start dates" || echo "No changes to commit"
+          git commit -m "Auto-update feed with latest start dates" || echo "No changes to commit"
           git push
