@@ -5,7 +5,7 @@
     <company>Онлайн-школа китайского языка Manmanlai</company>
     <url>https://manmanlai.ru</url>
     <email>info@manmanlai-online.ru</email>
-    <picture>https://raw.githubusercontent.com/MaryAug/manmanlai/refs/heads/main/logo.png</picture>
+    <picture>https://static.tildacdn.com/tild3031-6234-4431-b163-333436333962/logo.png</picture>
     <description>Онлайн-школа китайского языка. Помогаем со стажировками в Китай. Авторские методики, опытные преподаватели-носители и уютное комьюнити. Обучение с нуля до HSK 6, подготовка к экзаменам, разговорные курсы, занятия для детей.</description>
     <currencies>
       <currency id="RUR" rate="1"/>
@@ -19,6 +19,7 @@
   <categoryId>20006</categoryId>
   <picture>https://optim.tildacdn.com/tild3838-3534-4734-a237-636664643063/-/cover/720x460/center/center/-/format/webp/___3_1.jpg.webp</picture>
   <param name="Оплата в рассрочку" unit="месяц">3</param>
+  <param name="Ближайшая дата">[NEXT_START_5]</param>
   <param name="Продолжительность" unit="час">54</param>
   <param name="План" order="1">Все звуки и тоны китайского языка. Правильная артикуляция.</param>
   <param name="План" order="2">Сложные сочетания звуков, изменения тонов. Практика аудирования.</param>
