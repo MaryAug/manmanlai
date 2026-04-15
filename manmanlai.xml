@@ -48,7 +48,7 @@
   <categoryId>20006</categoryId>
   <picture>https://optim.tildacdn.com/tild6562-6133-4636-b064-343965303565/-/cover/720x460/center/center/-/format/webp/___2_2.jpg.webp</picture>
   <param name="Оплата в рассрочку" unit="месяц">3</param>
-  <param name="Ближайшая дата">2026-04-15</param>
+  <param name="Ближайшая дата">2026-04-16</param>
   <param name="Продолжительность" unit="час">54</param>
   <param name="План" order="1">Все звуки и тоны китайского языка. Правильная артикуляция.</param>
   <param name="План" order="2">Сложные сочетания звуков, изменения тонов. Практика аудирования.</param>
@@ -119,7 +119,7 @@
   <currencyId>RUR</currencyId>
   <categoryId>20006</categoryId>
   <param name="Оплата в рассрочку" unit="месяц">3</param>
-  <param name="Ближайшая дата">2026-04-15</param>
+  <param name="Ближайшая дата">2026-04-16</param>
   <param name="Продолжительность" unit="месяц">1</param>
   <param name="План" order="1">
     Интенсивная разговорная практика: диалоги, обсуждения, ролевые игры. 
@@ -158,7 +158,7 @@
   <categoryId>20006</categoryId>
   
   <param name="Оплата в рассрочку" unit="месяц">3</param>
-  <param name="Ближайшая дата">2026-04-15</param>
+  <param name="Ближайшая дата">2026-04-16</param>
   <param name="Продолжительность" unit="час">20</param>
   
   <param name="План" order="1">
@@ -200,7 +200,7 @@
   <picture>https://thb.tildacdn.com/tild6264-6531-4835-b838-663431386165/-/resize/20x/IMG_8975_1.jpg</picture>
   
   <param name="Оплата в рассрочку" unit="месяц">3</param>
-  <param name="Ближайшая дата">2026-04-15</param>
+  <param name="Ближайшая дата">2026-04-16</param>
   <param name="Продолжительность" unit="час">2</param>
   
   <param name="План" order="1">
@@ -240,7 +240,7 @@
   <picture>https://optim.tildacdn.com/tild6438-6232-4265-b562-376565633834/-/format/webp/noroot.png.webp</picture>
   
   <param name="Оплата в рассрочку" unit="месяц">3</param>
-  <param name="Ближайшая дата">2026-04-15</param>
+  <param name="Ближайшая дата">2026-04-16</param>
   <param name="Продолжительность" unit="час">20</param>
   
   <param name="План" order="1">
@@ -283,7 +283,7 @@
   <picture>https://optim.tildacdn.com/tild6438-6232-4265-b562-376565633834/-/format/webp/noroot.png.webp</picture>
   
   <param name="Оплата в рассрочку" unit="месяц">3</param>
-  <param name="Ближайшая дата">2026-04-15</param>
+  <param name="Ближайшая дата">2026-04-16</param>
   <param name="Продолжительность" unit="час">32</param>
   
   <param name="План" order="1">
@@ -324,7 +324,7 @@
   <price>1800</price>
   <currencyId>RUR</currencyId>
   <categoryId>20006</categoryId>
-  <param name="Ближайшая дата">2026-04-15</param>
+  <param name="Ближайшая дата">2026-04-16</param>
   <param name="Продолжительность" unit="час">1</param>
   
   <param name="План" order="1">
@@ -363,7 +363,7 @@
   <price>11500</price>
   <currencyId>RUR</currencyId>
   <categoryId>20006</categoryId>
-  <param name="Ближайшая дата">2026-04-15</param>
+  <param name="Ближайшая дата">2026-04-16</param>
   <param name="Продолжительность" unit="месяц">1</param>
   
   <param name="План" order="1">
@@ -406,7 +406,7 @@
   <categoryId>20006</categoryId>
   <picture>https://thb.tildacdn.com/tild3834-3333-4665-b834-363630306230/-/resize/20x/rinochka88_beautiful.png</picture>
   <param name="Оплата в рассрочку" unit="месяц">3</param>
-  <param name="Ближайшая дата">2026-04-15</param>
+  <param name="Ближайшая дата">2026-04-16</param>
   <param name="Продолжительность" unit="час">7</param>
   
   <param name="План" order="1">
